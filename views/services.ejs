@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include partials/head %>
+</head>
+<body>
+  <% include partials/menu %>
+  <div class="container-fluid bg-3 text-center">    
+    <h3><%= page %></h3><br>
+    <div class="row">
+      <% services.forEach(function(service) { %>
+        <div class="col-sm-4">
+          <img src="<%= service.image %>" class="img-responsive" alt="<%= service.title %>">
+          <h4><%= service.title %></h4>
+          <p><%= service.description %></p>
+        </div>
+      <% }); %>
+    </div>
+  </div>
+  <% include partials/script %>
+</body>
+</html>

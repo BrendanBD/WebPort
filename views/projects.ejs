@@ -1,0 +1,24 @@
+<!-- views/projects.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include partials/head %>
+</head>
+<body>
+  <% include partials/menu %>
+  <div class="container-fluid bg-3 text-center">    
+    <h3><%= page %></h3><br>
+    <div class="row">
+      <% projects.forEach(function(project) { %>
+        <div class="col-sm-4">
+          <img src="<%= project.image %>" class="img-responsive" alt="<%= project.title %>">
+          <p><strong><%= project.title %></strong></p>
+          <p><%= project.description %></p>
+        </div>
+      <% }); %>
+    </div>
+  </div>
+  <% include partials/script %>
+</body>
+</html>
