@@ -42,19 +42,19 @@ router.get('/projects', function(req, res, next) {
 router.get('/services', function(req, res, next) {
   const services = [
     {
-      title: 'Web Development',
-      description: 'We create modern and responsive websites tailored to your needs.',
-      image: '/images/web-development.jpg',
-    },
-    {
-      title: 'Mobile App Development',
-      description: 'We build mobile apps for iOS and Android platforms with cutting-edge technology.',
-      image: '/images/mobile-app-development.jpg',
+      title: 'Business Consulting',
+      description: 'I can help to modernize your business with latest technologies.',
+      image: '/images/business-consulting.jpg',
     },
     {
       title: 'General Programming',
-      description: 'Our team is proficient in various programming languages for custom solutions.',
+      description: 'I have a wide range of experience in various programming languages.',
       image: '/images/general-programming.jpg',
+    },
+    {
+      title: 'Custom Solutions',
+      description: 'I am flexible and can provide custom solutions to meet your needs.',
+      image: '/images/custom-solutions.jpg',
     },
   ];
 

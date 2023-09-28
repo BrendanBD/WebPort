@@ -1,0 +1,45 @@
+.container-fluid {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Heading style */
+  h3 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* Image style */
+  .img-responsive {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Makes the image round */
+    border: 2px solid #333; /* Add a border around the image */
+  }
+  
+  /* Text and link style */
+  .col-sm-8 {
+    text-align: left;
+  }
+  
+  h4 {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

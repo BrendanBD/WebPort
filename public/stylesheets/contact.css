@@ -1,0 +1,71 @@
+/* Add this CSS to your style.css or a custom CSS file */
+
+/* Container styling */
+.container-fluid {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Heading style */
+  h3 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* Left column (Contact Information) */
+  .col-sm-6 .panel {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .panel-heading {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .panel-body p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Right column (Contact Form) */
+  .col-sm-6 form {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  /* Textarea style */
+  textarea.form-control {
+    resize: vertical;
+  }
+  
+  /* Submit button style */
+  button.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #0056b3;
+  }
+  

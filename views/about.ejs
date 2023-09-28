@@ -1,27 +1,30 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <% include partials/head %> 
+  <% include partials/head %>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/about.css">
 </head>
 <body>
-<% include partials/menu %>
-
-<div class="container-fluid bg-3 text-center">    
-  <h3><%= page %></h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <% include partials/menu %>
+  <div class="container-fluid bg-3 text-center">    
+    <h3><%= page %></h3><br>
+    <div class="row">
+      <div class="col-sm-4">
+        
+        <img src="/images/Brebdan.jpg" class="img-about" alt="Brendan Dal">
+      </div>
+      <div class="col-sm-8">
+        
+        <h4>Legal Name: Brendan Dal</h4>
+        <p>
+          I am a student in Software Engineering.I specialize in small scale development and helping to bridge the gap between software development and business goals.
+        </p>
+        
+        <p><a href="/assets//resume.pdf" target="_blank">Download Resume (PDF)</a></p>
+      </div>
     </div>
   </div>
-</div>
-
+  <% include partials/script %>
 </body>
-<% include partials/script %>
 </html>
