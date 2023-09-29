@@ -23,7 +23,7 @@ router.get('/projects', function(req, res, next) {
   const projects = [
     {
       title: 'File Renamer',
-      image: '\images\project1.JPG' ,
+      image: '/images/project1.jpg' ,
       description: 'This small project was developed at the request of a friend. I created a small console app that renames files in a directory based on a pattern.',
       link: 'https://github.com/BrendanBD/File-renamer',
     },
