@@ -1,17 +1,17 @@
-<!-- views/home.ejs -->
+<!-- Brendan Dal 301332459 -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <% include partials/head %>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
 </head>
 <body>
   <% include partials/menu %>
   <div class="container-fluid bg-3 text-center">    
     <h3><%= page %></h3><br>
   
-    <p>Welcome to My Website</p>
-  
+    
     <div>
       
     
@@ -23,5 +23,6 @@
     </div>
   </div>
   <% include partials/script %>
+  <%- include partials/footer.ejs %>
 </body>
 </html>

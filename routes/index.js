@@ -1,6 +1,8 @@
+//Brendan Dal 301332459
+
 var express = require('express');
 var router = express.Router();
-
+const app = require('../app');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -32,10 +34,10 @@ router.get('/projects', function(req, res, next) {
       link: 'https://github.com/BrendanBD/Bank',
     },
     {
-      title: 'Proect 3',
+      title: 'Fraction Calculator',
       image: '/images/project3.jpg',
-      description: 'Description of Project 3...',
-      link: '',
+      description: 'A quick GUI tool to rezie fractions and perform basic operations on them.',
+      link: 'https://github.com/BrendanBD/Fraction_Calculator',
     },
   ];
 
@@ -47,7 +49,7 @@ router.get('/services', function(req, res, next) {
     {
       title: 'Business Consulting',
       description: 'I can help to modernize your business with latest technologies.',
-      image: '/images/business-consulting.jpg',
+      image: '/images/business-consulting.png',
     },
     {
       title: 'General Programming',

@@ -1,7 +1,35 @@
-.project-img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+.col-sm-4 {
+    text-align: center;
+    padding: 20px;
   }
+  
+
+  .col-sm-4 img {
+    width: 70px;
+    height: 70px;
+  }
+  
+
+  .col-sm-4 p strong {
+    display: block;
+    margin: 10px 0;
+    font-size: 28px; 
+  }
+  
+ 
+  .col-sm-4 p:not(strong) {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+ 
+  .col-sm-4 a {
+    color: #007bff; 
+    text-decoration: none;
+  }
+  
+  .col-sm-4 a:hover {
+    text-decoration: underline;
+  }
+  
