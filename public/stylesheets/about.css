@@ -5,21 +5,23 @@
     margin-top: 20px;
   }
   
-  /* Heading style */
+  
   h3 {
     color: #333;
     font-size: 24px;
   }
-  
-  /* Image style */
+  .img-about {
+    max-height: 400px;
+  }
+
   .img-responsive {
     max-width: 100%;
     height: auto;
-    border-radius: 50%; /* Makes the image round */
-    border: 2px solid #333; /* Add a border around the image */
+    border-radius: 50%; 
+    border: 2px solid #333; 
   }
   
-  /* Text and link style */
+  
   .col-sm-8 {
     text-align: left;
   }
@@ -36,7 +38,7 @@
   }
   
   a {
-    color: #007bff; /* Link color */
+    color: #007bff; 
     text-decoration: none;
   }
   

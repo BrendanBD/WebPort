@@ -1,9 +1,10 @@
-<!-- views/projects.ejs -->
+
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <% include partials/head %>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/projects.css">
 </head>
 <body>
   <% include partials/menu %>
@@ -15,6 +16,7 @@
           <img src="<%= project.image %>" class="img-responsive" alt="<%= project.title %>">
           <p><strong><%= project.title %></strong></p>
           <p><%= project.description %></p>
+          <p><a href="<%= project.link %>" target="_blank">View Project</a></p>
         </div>
       <% }); %>
     </div>

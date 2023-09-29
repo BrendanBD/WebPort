@@ -20,19 +20,22 @@ router.get('/contact', function(req, res, next) {
 router.get('/projects', function(req, res, next) {
   const projects = [
     {
-      title: 'Project 1',
+      title: 'File Renamer',
       image: '/images/project1.jpg',
-      description: 'Description of Project 1...',
+      description: 'This small project was developed at the request of a friend. I created a small console app that renames files in a directory based on a pattern.',
+      link: 'https://github.com/BrendanBD/File-renamer',
     },
     {
-      title: 'Project 2',
+      title: 'Bank App',
       image: '/images/project2.jpg',
-      description: 'Description of Project 2...',
+      description: 'A proof of concept app for shoowcasing how object oriented programming could help to build a banking app.',
+      link: 'https://github.com/BrendanBD/Bank',
     },
     {
-      title: 'Project 3',
+      title: 'Proect 3',
       image: '/images/project3.jpg',
       description: 'Description of Project 3...',
+      link: '',
     },
   ];
 
@@ -52,8 +55,8 @@ router.get('/services', function(req, res, next) {
       image: '/images/general-programming.jpg',
     },
     {
-      title: 'Custom Solutions',
-      description: 'I am flexible and can provide custom solutions to meet your needs.',
+      title: 'Small Solutions',
+      description: 'I am flexible and can provide custom solutions to meet your needs, no matter the size.',
       image: '/images/custom-solutions.jpg',
     },
   ];
