@@ -23,7 +23,7 @@ router.get('/projects', function(req, res, next) {
   const projects = [
     {
       title: 'File Renamer',
-      image: '/images/project1.jpg',
+      image: '\images\project1.JPG' ,
       description: 'This small project was developed at the request of a friend. I created a small console app that renames files in a directory based on a pattern.',
       link: 'https://github.com/BrendanBD/File-renamer',
     },
@@ -36,7 +36,7 @@ router.get('/projects', function(req, res, next) {
     {
       title: 'Fraction Calculator',
       image: '/images/project3.jpg',
-      description: 'A quick GUI tool to rezie fractions and perform basic operations on them.',
+      description: 'A quick GUI tool to resize fractions and perform basic operations on them.',
       link: 'https://github.com/BrendanBD/Fraction_Calculator',
     },
   ];
