@@ -59,7 +59,7 @@ router.get('/services', function(req, res, next) {
     {
       title: 'Small Solutions',
       description: 'I am flexible and can provide custom solutions to meet your needs, no matter the size.',
-      image: '/images/custom-solutions.jpg',
+      image: '/images/general-programming.jpg',
     },
   ];
 
