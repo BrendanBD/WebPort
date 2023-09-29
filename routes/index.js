@@ -23,19 +23,19 @@ router.get('/projects', function(req, res, next) {
   const projects = [
     {
       title: 'File Renamer',
-      image: '/images/project1.jpg' ,
+      image: '/images/project1.png' ,
       description: 'This small project was developed at the request of a friend. I created a small console app that renames files in a directory based on a pattern.',
       link: 'https://github.com/BrendanBD/File-renamer',
     },
     {
       title: 'Bank App',
-      image: '/images/project2.jpg',
+      image: '/images/project2.png',
       description: 'A proof of concept app for shoowcasing how object oriented programming could help to build a banking app.',
       link: 'https://github.com/BrendanBD/Bank',
     },
     {
       title: 'Fraction Calculator',
-      image: '/images/project3.jpg',
+      image: '/images/project3.png',
       description: 'A quick GUI tool to resize fractions and perform basic operations on them.',
       link: 'https://github.com/BrendanBD/Fraction_Calculator',
     },
@@ -59,7 +59,7 @@ router.get('/services', function(req, res, next) {
     {
       title: 'Small Solutions',
       description: 'I am flexible and can provide custom solutions to meet your needs, no matter the size.',
-      image: '/images/general-programming.jpg',
+      image: '/images/custom-solutions.png',
     },
   ];
 
